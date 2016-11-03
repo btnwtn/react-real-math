@@ -2,7 +2,7 @@
 Do math with a DSL as easy as React.js!
 
 ```javascript
-import { computeValue, Add, Multiply, Subtract, One, Two, Four, Five } from './lol'
+import { computeValue, Add, Multiply, Subtract, One, Two, Four, Five } from 'react-real-math'
 
 console.log("The answer to everything:", computeValue(
   <Add>
