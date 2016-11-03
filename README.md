@@ -1,6 +1,14 @@
 # react-real-math
 Do math with a DSL as easy as React.js!
 
+## Install
+
+```
+$ yarn add react-real-math
+```
+
+## Example
+
 ```javascript
 import { computeValue, Add, Multiply, Subtract, One, Two, Four, Five } from 'react-real-math'
 
