@@ -30,6 +30,6 @@ export const Divide = (props) => (
 
 export const One = () => <span>1</span>
 export const Two = () => <Add><One/><One/></Add>
-export const Three = () => <Add><One/><Two/></Add>
+export const Three = () => <Add><Two/><One/></Add>
 export const Four = () => <Add><Three/><One/></Add>
 export const Five = () => <Add><Four/><One/></Add>
