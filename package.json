@@ -1,0 +1,24 @@
+{
+  "name": "react-real-math",
+  "version": "1.0.0",
+  "description": "Math DSL for React.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btnwtn/react-real-math.git"
+  },
+  "keywords": [
+    "math",
+    "react",
+    "functional"
+  ],
+  "author": "Brandon Newton <btnwtn@gmail.com>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/btnwtn/react-real-math/issues"
+  },
+  "homepage": "https://github.com/btnwtn/react-real-math#readme"
+}
