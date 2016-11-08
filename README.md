@@ -28,3 +28,24 @@ console.log("The answer to everything:", computeValue(
   </Add>
 ))
 ```
+
+For some uses (big production apps), you'll want to use numbers greater
+than nine, `react-real-math` provides a useful helper to cover this case.
+
+```javascript
+import { Zero, Two, Four, Concat, Add } from './react-real-math';
+
+const forty = (
+  <Concat>
+    <Four />
+    <Zero />
+  </Concat>
+)
+
+console.log("The answer to everything:", computeValue(
+  <Add>
+    {forty}
+    <Two />
+  </Add>
+))
+```
