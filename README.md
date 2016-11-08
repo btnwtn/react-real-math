@@ -33,7 +33,7 @@ For some uses (big production apps), you'll want to use numbers greater
 than nine. `react-real-math` provides a useful helper to cover this case:
 
 ```javascript
-import { Zero, Two, Four, Concat, Add } from './react-real-math';
+import { computeValue, Concat, Add, Zero, Two, Four } from 'react-real-math'
 
 const forty = (
   <Concat>
