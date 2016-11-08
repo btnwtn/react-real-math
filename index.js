@@ -28,6 +28,15 @@ export const Divide = (props) => (
   <span>{computeValue(props.children) / computeValue(props.by)}</span>
 )
 
+export const Concat = (props) => {
+  const result = props.children.reduce((acc, component) => {
+    return acc += computeValue(component)
+  }, '')
+
+  return <span>{+result}</span>
+}
+
+export const Zero = () => <span>0</span>
 export const One = () => <span>1</span>
 export const Two = () => <Add><One/><One/></Add>
 export const Three = () => <Add><Two/><One/></Add>
